@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="ieee event.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+</head>
+<body onload="myFunction()">
+    <div id="loading">
+        <div id="preloader">
+            <div id="loader"></div>
+          </div>
+       </div>
+    <div class="container">
+        <div class="title">
+   <div><h1 id="spi">IEEE <span class="auto-type"></span></h1></div>
+    <h1 id="event" style="display: none;">EVENTS</h1>
+    <div class="line"></div>
+ 
+</div>
+   </div>
+   <section>
+    <div class= "maindiv" id="eventu"></div>
+   <div style="display: flex; justify-content: center; align-items: center;">
+    <h1 style="font-size: 35px;">Recent Events</h1>
+   </div>
+   <div class="flexie" style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-bottom: 2em; margin-top: 3em;">
+    <div class="bag" style="max-height: 30em; max-width: 30em;"> 
+    <img style="border-radius: 15px;" src="/Event/image1.jpg" class="card-img-top" alt="..." height="100%" width="100%">
+  </div>
+  <div class="bag"style="max-height: 30em; max-width: 30em;"> 
+    <img style="border-radius: 15px;" src="/Event/image2.jpg" class="card-img-top" alt="..." height="100%" width="100%">
+  </div>
+</div>
+   </div>
+        </section>
+        <section>
+            <section id="footer">
+                <div class="main-footer">
+                  <div class="logoinfo">
+                    <a href="index.html"><img src="footer logo1.png" alt="" width="70px" height="100%"></a>  
+                  <!-- <h2>Advancing Technology for Humanity</h2> -->
+              
+                    <div class="contact-details">
+                      <h1>Contact Us</h1>
+                      <div id="line0"></div>
+                      <li>
+                        <div>Ashish Mohan Mohapatra</div>
+                        <div>(Student Chair)</div>
+                        <div id="call" class="fa fa-phone"></div><a  id="call" href="tel:+91 8260555702">+91 8260555702</a></li>
+                  
+                      <li>
+                        <div id="mail" class="fa fa-envelope"></div><a id="maili" href="mailto:ieeevssutburlasb@gmail.com">ieeevssutburlasb@gmail.com</a></li>
+                      </li>
+                  </div>
+                </div>
+                <div class="com " >
+                  <h1>Quick Links</h1>
+                  <div id="line1"></div>
+                  <ul>
+                    <li><a id="hm" href="index.html">Home</a></li>
+                    <li><a  id="hm" href="index.html">About</a></li>
+                    <li><a  id="hm" href="ieee event.html">Events</a></li>
+                    <li><a  id="hm" href="Member.html">Members</a></li>
+                    <li><a  id="hm" href="Contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="info">
+                  <h1 id="socio">Social Media</h1>
+                  <div id="line2"></div>
+                  <div class="sociallogos">
+                    <div class="logobox">
+                      <a href="https://www.facebook.com/IEEE-VSSUT-BURLA-SB-378523262938582/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="https://www.linkedin.com/company/ieee-vssut-burla-student-branch/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href= "https://instagram.com/ieeevssut?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                     <a href= "https://twitter.com/IEEE_VSSUT_SB?t=OmcWzxLFY5QrSohAZa4a9Q&s=08" target="_blank"><i class="fa-brands fa-twitter"></i></a>       
+                    </div>
+                  </div>
+                </div>
+                </div>
+              <footer> &nbsp; Copyright © IEEE web development team</footer>
+              </section>
+        </section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["VSSUT","EVENTS"],
+             typeSpeed: 200,backspeed:200,loop:true
+        })
+        var preloader = document.getElementById("loading");
+    function myFunction(){
+     window.onload(preloader.style.display = 'none')
+     };
+    </script>
+</body>
+</html>
